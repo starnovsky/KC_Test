@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Base", "0 - Base", "{51D8A632-734B-4980-8EC7-79ACB1362192}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{31C52524-6614-4D63-BC5F-DF22307030C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{F4152AB6-7231-416F-9127-41CE8527F15F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{110556DA-4ABE-4F6D-BBF7-B427C4568910}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Persistence", "4 - Persistence", "{6691BA8D-F71F-4A52-B0A5-E932F370431E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Test", "5 - Test", "{2688118F-F3CB-41B2-8E0A-15E25397BF20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Lib", "6 - Lib", "{67F83E78-BCF3-41D5-9504-DCF723DF44B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 - Deployment", "7 - Deployment", "{ADF80415-817F-42D4-A159-1567A4F2FDEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8 - Documentation", "8 - Documentation", "{CA06C575-83EE-437D-A542-1AED5A52B875}"
+	ProjectSection(SolutionItems) = preProject
+		8 - Documentation\Readme.md = 8 - Documentation\Readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KC_Test", "5 - Test\KC_Test\KC_Test.csproj", "{737390AE-2D09-4AC5-B82E-66E97E20F0CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KC_Application", "2 - Application\KC_Application\KC_Application.csproj", "{53610CFC-E2DF-47E2-867C-7F3FA736B550}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{737390AE-2D09-4AC5-B82E-66E97E20F0CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{737390AE-2D09-4AC5-B82E-66E97E20F0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{737390AE-2D09-4AC5-B82E-66E97E20F0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{737390AE-2D09-4AC5-B82E-66E97E20F0CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53610CFC-E2DF-47E2-867C-7F3FA736B550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53610CFC-E2DF-47E2-867C-7F3FA736B550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53610CFC-E2DF-47E2-867C-7F3FA736B550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53610CFC-E2DF-47E2-867C-7F3FA736B550}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{737390AE-2D09-4AC5-B82E-66E97E20F0CA} = {2688118F-F3CB-41B2-8E0A-15E25397BF20}
+		{53610CFC-E2DF-47E2-867C-7F3FA736B550} = {F4152AB6-7231-416F-9127-41CE8527F15F}
+	EndGlobalSection
+EndGlobal
