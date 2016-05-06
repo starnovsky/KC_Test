@@ -1,13 +1,15 @@
 # Kool Code Demo
 ## Testing Frameworks and Runners
 
-### Step 3
+### Step 4
++ Add wallaby-*.json files to KC_Test  
 
-+ Install Jasmine NuGet Package into KC_Test  
-> In the Package Manager Console type:  
->> `Install-Package jasmine`  
+>NOTE:  Wallaby does not work correctly with 'linked' files so you have to physically copy the postalCodeValidator.js file into the test project... which is unfortunate!
 
-+ Add postalCodeValidatorTests_jasmine.js  
++ Start Wallaby
++ Demo Wallaby code coverage  
++ Demo Chutzpah code coverage  
 
 ### Links
-- [Jasmine JS - A BDD-style Unit Testing Framework](http://jasmine.github.io/)
+- [Wallaby JS - Continuous Test Runner](https://wallabyjs.com)
+- [Phantom JS - 'Headless' WebKit](http://phantomjs.org/)

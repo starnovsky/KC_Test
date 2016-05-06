@@ -1,0 +1,10 @@
+﻿{
+	"files": [
+		"src/*.js"
+	],
+	"tests": [
+		"test/*_jasmine.js"
+	],
+
+	"testFramework": "jasmine@2.4.1"
+}

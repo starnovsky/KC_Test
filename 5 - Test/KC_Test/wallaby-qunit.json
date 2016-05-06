@@ -1,0 +1,10 @@
+﻿{
+	"files": [
+		"src/*.js"
+	],
+	"tests": [
+		"test/*_qunit.js"
+	],
+
+	"testFramework": "qunit"
+}

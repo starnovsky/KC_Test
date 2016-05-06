@@ -53,9 +53,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\2 - Application\KC_Application\postalCodeValidator.js">
-      <Link>src\postalCodeValidator.js</Link>
-    </Content>
     <Content Include="Content\jasmine\jasmine.css" />
     <Content Include="Content\jasmine\jasmine_favicon.png" />
     <Content Include="Content\qunit.css" />
@@ -65,8 +62,13 @@
     <Content Include="Scripts\jasmine\jasmine-html.js" />
     <Content Include="Scripts\jasmine\jasmine.js" />
     <Content Include="Scripts\qunit.js" />
+    <Content Include="src\postalCodeValidator.js" />
     <Content Include="test\postalCodeValidatorTests_jasmine.js" />
     <Content Include="test\postalCodeValidatorTests_qunit.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="wallaby-jasmine-2.json" />
+    <Content Include="wallaby-qunit.json" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
