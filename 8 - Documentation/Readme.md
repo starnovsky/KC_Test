@@ -1,15 +1,34 @@
 # Kool Code Demo
 ## Testing Frameworks and Runners
 
-### Step 4
-+ Add wallaby-*.json files to KC_Test  
+### Step 5
++ Install MS Test NuGet Extensions
+> In the Package Manager Console type:  
+> `Install-Package Microsoft.UnitTestFramework.Extensions`  
 
->NOTE:  Wallaby does not work correctly with 'linked' files so you have to physically copy the postalCodeValidator.js file into the test project... which is unfortunate!
++ Install NUnit
+> In the Package Manager Console type:  
+>> `Install-Package NUnit`  
 
-+ Start Wallaby
-+ Demo Wallaby code coverage  
-+ Demo Chutzpah code coverage  
++ Install XUnit
+> In the Package Manager Console type:  
+>> `Install-Package XUnit`  
+
++ Install Fluent Assertions
+> In the Package Manager Console type:  
+>> `Install-Package FluentAssertions`  
+
++ Add `PostalCodeValidator` to KC_Application/cs
++ Add `StringExtensions` to KC_Application/cs
++ Add `PostalCodeValidatorTests` to KC_Test/csTest
+
++ Demo Test with Visual Studio test runner
++ Demo Test with ReSharper
++ Demo Test with Chutzpah
++ Demo Test NCrunch
 
 ### Links
-- [Wallaby JS - Continuous Test Runner](https://wallabyjs.com)
-- [Phantom JS - 'Headless' WebKit](http://phantomjs.org/)
+- [NUnit](http://www.nunit.org/)  
+- [XUnit](https://xunit.github.io/)  
+- [Fluent Assertions](http://www.fluentassertions.com/)  
+- [NCrunch - Continuous Test Runner for .net](http://www.ncrunch.net/)
