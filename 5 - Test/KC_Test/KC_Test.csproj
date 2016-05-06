@@ -53,7 +53,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="..\..\2 - Application\KC_Application\postalCodeValidator.js">
+      <Link>src\postalCodeValidator.js</Link>
+    </Content>
+    <Content Include="Content\qunit.css" />
     <Content Include="packages.config" />
+    <Content Include="Scripts\qunit.js" />
+    <Content Include="test\postalCodeValidatorTests_qunit.js" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
